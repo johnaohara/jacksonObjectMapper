@@ -37,6 +37,13 @@
       <artifactId>quarkus-resteasy-reactive-jackson</artifactId>
     </dependency>
 
+<!--  Adding this dependency and removing quarkus-keycloak-admin-client allows the test to PASS
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-rest-client</artifactId>
+    </dependency>
+-->
+
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-keycloak-admin-client</artifactId>
